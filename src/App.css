@@ -1,0 +1,71 @@
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.produtos p {
+  margin: 0rem 0rem 3rem 19rem;
+  font-size: 3rem;
+  color: white;
+  
+}
+
+.produtos h1{
+  margin: 3.125rem 0rem 0rem 5.5rem;
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.cardFrutas {
+width: 70%;
+color: white;
+}
+
+.cardFrutas h2 {
+  margin-left: 5.5rem;
+  font-size: 4rem;
+}
+
+
+ul img {
+  width: 300px;
+}
+
+.containerCarrinho {
+  background-color: #F7E0CE;
+  border-radius: 8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.carrinho {
+  background-color: #D3C5BB;
+  border-radius: 5rem;
+  width: 300px;
+  margin: 70px 40px;
+  padding: 100px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carrinho p {
+  text-align: center;
+  font-size: 1.25rem;
+  width: 200px;
+  color: black;
+  margin: 0;
+}
+
+.buttonCarrinho {
+  background-color:#D3C5BB;
+  margin:20px auto;
+  padding: 20px;
+  border-radius: 5rem;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
